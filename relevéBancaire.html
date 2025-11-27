@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Relevé bancaire</title>
+      <style>
+                        body { font-family: Segoe UI, Arial, sans-serif; margin: 20px; }
+                        table { border-collapse: collapse; width: 100%; }
+                        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+                        th { background: #f7f7f7; }
+                        .totaux { margin-top: 16px; }
+                    </style>
+   </head>
+   <body>
+      <h1>Relevé bancaire</h1>
+      <p><strong>RIB:</strong>01111222233334444555566</p>
+      <p><strong>Date du relevé:</strong>2021-11-10</p>
+      <p><strong>Solde:</strong>14500</p>
+      <p><strong>Période:</strong>2021-01-01 – 2021-01-30</p>
+      <h2>Opérations</h2>
+      <table>
+         <thead>
+            <tr>
+               <th>Type</th>
+               <th>Date</th>
+               <th>Montant</th>
+               <th>Description</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>CREDIT</td>
+               <td>2021-01-01</td>
+               <td>9000</td>
+               <td>Versement espèces</td>
+            </tr>
+            <tr>
+               <td>DEBIT</td>
+               <td>2021-01-11</td>
+               <td>3400</td>
+               <td>Chèque guichet</td>
+            </tr>
+            <tr>
+               <td>DEBIT</td>
+               <td>2021-01-15</td>
+               <td>120</td>
+               <td>Prélèvement assurance</td>
+            </tr>
+            <tr>
+               <td>CREDIT</td>
+               <td>2021-01-25</td>
+               <td>70000</td>
+               <td>Virement</td>
+            </tr>
+         </tbody>
+      </table>
+      <div class="totaux">
+         <p><strong>Total CREDIT:</strong>79000</p>
+         <p><strong>Total DEBIT:</strong>3520</p>
+      </div>
+   </body>
+</html>
